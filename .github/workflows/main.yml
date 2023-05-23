@@ -1,0 +1,36 @@
+name: Build and Deploy to SFTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build project
+        run: CI="" yarn run build
+
+      - name: SFTP Push
+        uses: AbleLincoln/push-to-sftp@v2.1
+        with:
+          host: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          port: ${{ vars.SFTP_PORT }}
+          privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ''
+          sourceDir: './build/'
+          targetDir: '/home/u244668734/domains/narativlab.io/public_html/mint'

@@ -1,0 +1,204 @@
+@import "./global.scss";
+
+.first{
+
+    width: 90vw;
+    margin: 40px auto;
+    margin-bottom: 75px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+
+    gap: 50px;
+
+    h1{
+        font-size: 60px;
+
+        &.dark{
+            color: black !important;
+        }
+    }
+
+    p{
+        &.dark{
+            color: black !important;
+        }
+    }
+
+    > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 20px;
+
+        &:first-child{
+            background-color: white;
+            padding: 75px;
+
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            
+            button{
+                width: 100%;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                padding: 20px;
+
+                span{
+                    font-weight: 400;
+                }
+            }
+
+            >div{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 20px;
+
+                button{
+                    transition: all .3s;
+
+                    &:hover{
+                        background-color: transparent;
+                        border: 1px black solid;
+                    }
+                }
+
+                .sale-btn{
+                  
+                    
+                    span{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        font-family: $font-familly-text;
+                        font-size: 20px;
+                        gap: 10px;
+                        padding: 15px;
+
+                        p{
+                            width: 30px;
+                        }
+
+                        button{
+                            background-color: transparent !important;
+                            color: black !important;
+                            padding: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            svg{
+                                width: fit-content;
+                            }
+
+                            &:hover{
+                                border-color: transparent !important;
+                            }
+                        }
+                    }
+                }
+
+                div{
+                    display: flex;
+                    gap: 20px;
+
+                
+
+                    button{
+
+                        border: 1px transparent solid;
+                        border-radius: 10px;
+
+                        &:last-child{
+                            background-color: black;
+                            color: white;
+
+                            &:hover{
+                                border: 1px black solid;
+                                background-color: white;
+                                color: black;
+                            }
+                        }
+                    }
+
+                    >div{
+                        display: flex;
+                        width: 100%;
+                        button{
+                            
+                            border: 1px transparent solid;
+                            border-radius: 10px;
+    
+                             &:last-child{
+                                background-color: $l-primary !important;
+                                color: black;
+                              
+                                height: auto !important;
+                              
+                                &:hover{
+                                    border: 1px black solid;
+                                    background-color: white !important;
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+
+                 
+                }
+            }
+        }
+
+        &:last-child{
+            background-image: url("../assets/images/nft.gif");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            color: white;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+            padding: auto;
+            padding-left: 0;
+            padding-right: 0;
+            background-color: #f2eff0;
+            min-height: 300px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1100px)  {
+
+    .first{
+        display: flex;
+        flex-direction: column-reverse;
+
+        h1{
+            font-size: 32px;
+        }
+
+        > div{
+            padding: 30px !important;
+
+            div{
+                flex-direction: column;
+                button{
+                    font-size: 18px !important;
+                }   
+            }
+        }
+    }
+
+}

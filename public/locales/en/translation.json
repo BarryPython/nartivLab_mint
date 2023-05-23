@@ -1,0 +1,23 @@
+{
+    "nav_back":"Back to website",
+
+    "main_title" : "Narativ Pass\nPublic Sale",
+    "main_subtitle" : "Holding a Pass allows you to join our exclusive investor club and participate in future decision-making. It also comes with many financial benefits.",
+    "main_coming" : "Coming Soon",
+    "main_buy" : "Buy",
+    "main_openSea" : "Buy on OpenSea",
+    "main_D" : "D",
+
+    "pass_title" : "Pass Informations",
+    "pass_supply" : "Supply",
+    "pass_distrib" : "Free Distribution",
+    "pass_sale" : "Public Sale",
+    "pass_blockchain" : "Blockchain",
+    "pass_nft" : "Token NFT Standard",
+    "pass_fee" : "Creator Fee / Royalties",
+
+    "industry_system" : "Only Pass holders can vote for the upcoming films to be financed",
+    "industry_app" : "1 Pass = 1 Investment Ticket More passes = more tickets per movie",
+    "industry_funding" : "Get rewarded in NRT Tokens by participating in the voting process",
+    "industry_redistributed" : "Exclusive event invitations for Narativ's loyal members"
+}

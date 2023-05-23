@@ -1,0 +1,30 @@
+@import "./global.scss";
+
+nav{
+    top : 0px;
+
+    width: 90vw;
+    padding : 30px 5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 500;
+        font-family: $font-familly-text;
+    }
+
+    div{
+        display: flex;
+        gap: 15px;
+
+        button{
+            background-color: transparent;
+            border: 0;
+        }
+    }
+}

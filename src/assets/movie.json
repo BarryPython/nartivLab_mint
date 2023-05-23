@@ -1,0 +1,241 @@
+[
+    {
+        "title": "Pearl",
+        "budget": "1M$",
+        "box": "9.4M$",
+        "profits": "840%",
+        "file": "PEARL.jpg"
+    },
+    {
+        "title": "Gully Boy",
+        "budget": "5.5M$",
+        "box": "25M$",
+        "profits": "355%",
+        "file": "GULLY.jpg"
+    },
+    {
+        "title": "Get Out",
+        "budget": "4.5M$",
+        "box": "265.7$",
+        "profits": "5 805%",
+        "file": "GET.jpg"
+    },
+    {
+        "title": "Ice",
+        "budget": "2.6M$",
+        "box": "29.3M$",
+        "profits": "1 128%",
+        "file": "ICE.jpg"
+    },
+    {
+        "title": "I can only imagine",
+        "budget": "7M$",
+        "box": "105.8M$",
+        "profits": "1 410%",
+        "file": "IMAGINE.jpg"
+    },
+    {
+        "title": "The invisible guest",
+        "budget": "4M$",
+        "box": "30.7M$",
+        "profits": "665%",
+        "file": "INVISIBLE.jpg"
+    },
+    {
+        "title": "Nomadland",
+        "budget": "5M$",
+        "box": "37.9M$",
+        "profits": "660%",
+        "file": "NOMAD.jpg"
+    },
+    {
+        "title": "Pad Man",
+        "budget": "3.1M$",
+        "box": "27.6M$",
+        "profits": "890%",
+        "file": "PAD.jpg"
+    },
+    {
+        "title": "47 Meters Down",
+        "budget": "5.5M$",
+        "box": "61.7M$",
+        "profits": "1 020%",
+        "file": "47.jpg"
+    },
+    {
+        "title": "Barbarian",
+        "budget": "4M$",
+        "box": "42.3M$",
+        "profits": "955%",
+        "file": "BARBARIAN.jpg"
+    },
+    {
+        "title": "The Big Sick",
+        "budget": "5M$",
+        "box": "55.9M$",
+        "profits": "1 020%",
+        "file": "BIG.jpg"
+    },
+    {
+        "title": "Breaking In",
+        "budget": "6M$",
+        "box": "51.4M$",
+        "profits": "755%",
+        "file": "BREAKING.jpg"
+    },
+    {
+        "title": "Call me by your name",
+        "budget": "3.8M$",
+        "box": "38.2M$",
+        "profits": "905%",
+        "file": "CALL.jpg"
+    },
+    {
+        "title": "Countdown",
+        "budget": "6.5M$",
+        "box": "39.2M$",
+        "profits": "505%",
+        "file": "COUNTDOWN.jpg"
+    },
+    {
+        "title": "Extreme Job",
+        "budget": "5.8M$",
+        "box": "125.2M$",
+        "profits": "2 159%",
+        "file": "EXTREME.jpg"
+    },
+    {
+        "title": "The Farewell",
+        "budget": "3M$",
+        "box": "21.7M$",
+        "profits": "625%",
+        "file": "FAREWELL.jpg"
+    },
+    {
+        "title": "Freaky",
+        "budget": "5M$",
+        "box": "20.9M$",
+        "profits": "320%",
+        "file": "FREAKY.jpg"
+    },
+    {
+        "title": "Gretel & Hansel",
+        "budget": "5M$",
+        "box": "20.7M$",
+        "profits": "315%",
+        "file": "GRETEL.jpg"
+    },
+    {
+        "title": "Happy Birthdead",
+        "budget": "4.8M$",
+        "box": "121.2M$",
+        "profits": "2 425%",
+        "file": "HAPPY.jpg"
+    },
+    {
+        "title": "Loving Vincent",
+        "budget": "5M$",
+        "box": "32.7M$",
+        "profits": "555%",
+        "file": "LOVING.jpg"
+    },
+    {
+        "title": "Ma",
+        "budget": "5M$",
+        "box": "60.5M$",
+        "profits": "1 110%",
+        "file": "MA.jpg"
+    },
+    {
+        "title": "Midnight Sun",
+        "budget": "2.8M$",
+        "box": "27.4M$",
+        "profits": "977%",
+        "file": "MIDNIGHT.jpg"
+    },
+    {
+        "title": "Minari",
+        "budget": "2M$",
+        "box": "14.2M$",
+        "profits": "610%",
+        "file": "MINARI.jpg"
+    },
+    {
+        "title": "Mirreyes contra Godinez",
+        "budget": "1.5M$",
+        "box": "11.9M$",
+        "profits": "695%",
+        "file": "MIRREYES.jpg"
+    },
+    {
+        "title": "Les Misérables",
+        "budget": "2M$",
+        "box": "18.1M$",
+        "profits": "805%",
+        "file": "MISERABLES.jpg"
+    },
+    {
+        "title": "Overcomer",
+        "budget": "5M$",
+        "box": "42.7M$",
+        "profits": "755%",
+        "file": "OVERCOMER.jpg"
+    },
+    {
+        "title": "Secret Superstar",
+        "budget": "7.7M$",
+        "box": "127.8M$",
+        "profits": "1 560%",
+        "file": "SECRET.jpg"
+    },
+    {
+        "title": "Show Dogs",
+        "budget": "5.5M$",
+        "box": "39.2M$",
+        "profits": "712%",
+        "file": "SHOW.jpg"
+    },
+    {
+        "title": "Terrifier 2",
+        "budget": "0.25M$",
+        "box": "10.9M$",
+        "profits": "4 260%",
+        "file": "TERRIFIER.jpg"
+    },
+    {
+        "title": "Truth or Dare",
+        "budget": "3.5M$",
+        "box": "95.3M$",
+        "profits": "2 620%",
+        "file": "TRUTH.jpg"
+    }
+    ,
+    {
+        "title": "Uri",
+        "budget": "6.5M$",
+        "box": "39.1M$",
+        "profits": "500%",
+        "file": "URI.jpg"
+    },
+    {
+        "title": "Wedding Nightmare",
+        "budget": "6M$",
+        "box": "55.9M$",
+        "profits": "830%",
+        "file": "WEDDING.jpg"
+    },
+    {
+        "title": "Winchester",
+        "budget": "3.5M$",
+        "box": "40.2M$",
+        "profits": "1 050%",
+        "file": "WINCHESTER.jpg"
+    },
+    {
+        "title": "The Lighthouse",
+        "budget": "4M$",
+        "box": "18M$",
+        "profits": "350%",
+        "file": "LIGHTHOUSE.jpg"
+    }
+]

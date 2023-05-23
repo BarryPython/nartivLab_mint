@@ -1,0 +1,23 @@
+{
+    "nav_back":"Retour au site",
+
+    "main_title" : "Narativ Pass\nVente Publique",
+    "main_subtitle" : "La détention d'un pass vous permet de rejoindre notre club d'investisseurs exclusif et de participer aux décisions futures. Il s'accompagne également de nombreux avantages financiers.",
+    "main_coming" : "Bientôt disponible",
+    "main_buy" : "Acheter",
+    "main_openSea" : "Acheter sur OpenSea",
+    "main_D" : "J",
+
+    "pass_title" : "Informations du Pass",
+    "pass_supply" : "Supply",
+    "pass_distrib" : "Distribution gratuite",
+    "pass_sale" : "Vente Publique",
+    "pass_blockchain" : "Blockchain",
+    "pass_nft" : "Standard NFT",
+    "pass_fee" : "Royalties",
+
+    "industry_system" : "Seuls les détenteurs de Pass peuvent voter pour les prochains films à financer",
+    "industry_app" : "1 pass = 1 ticket. Les pass sont cumulables et fonctionne pour tout les films",
+    "industry_funding" : "En prenant part au processus de vote, vous serez gratifié en $NRT",
+    "industry_redistributed" : "Invitations exclusives à des événements pour les membres fidèles de Narativ"
+}
