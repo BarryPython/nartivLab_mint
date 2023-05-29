@@ -169,6 +169,14 @@ const buyTokens = useContract({
 
   }, [response]) 
 
+  useEffect(()=>{
+    if (ethToBuy > 5){
+        setEthToBuy(5);
+    }else if (ethToBuy < 0){
+        setEthToBuy(0);
+    }
+  },[ethToBuy]);
+
 
     function BuyOpenSea(){
         //for the blockchain dev
@@ -196,19 +204,22 @@ const buyTokens = useContract({
                 <div>
                     <div>
                         <button style={{"pointer-events": "none"}}>
-                            0.05 ETH 
+                            0.01 ETH 
                         </button>
-                        <button style={{"pointer-events": "none"}}>
-                        {
-                        //to put back the time count down, uncomment the following line and comment the actually uncommentend line 2line down
-                        //day +t("main_D") +hour+ "H"+ minute+ "M"
-                        t("main_coming")
-                        }
+                        <button>
+                            {sold} / 555
                         </button>
                     </div>
-                    <button className='main-btn'>
-                        {t("main_coming")}  
-                    </button>
+                    <div className='sale-btn'>
+                        <span>
+                            <button onClick={()=>{setEthToBuy(ethToBuy-1)}}><Moins /></button>
+                            <p>{ethToBuy}</p>
+                            <button onClick={()=>{setEthToBuy(ethToBuy+1)}}><Plus /></button>
+                        </span>
+                        <button className='main-btn'>
+                            {t("main_coming")}  
+                        </button>
+                    </div>
                 </div>
             </div>
         )
@@ -223,7 +234,7 @@ const buyTokens = useContract({
                 <div>
                     <div>
                         <button>
-                            0.05 ETH 
+                            0.01 ETH 
                         </button>
                         <button>
                             {sold} / 555
@@ -258,7 +269,7 @@ const buyTokens = useContract({
                 <div>
                     <div>
                         <button>
-                            0.05 ETH 
+                            0.01 ETH 
                         </button>
                         <button>
                             555 / 555

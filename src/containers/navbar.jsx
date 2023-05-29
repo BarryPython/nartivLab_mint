@@ -14,6 +14,7 @@ export default function NavBar({setDark,dark}){
     
     const {t} = useTranslation()
     const navRef = useRef()
+    const switchref = useRef()
     const [scrolled, setScrolled] = useState(false)
 
     function switch_dark(dark){
@@ -36,10 +37,14 @@ export default function NavBar({setDark,dark}){
                 {t("nav_back")}
             </a>
             <div>
-                <select className='secondary-btn' defaultValue={i18n.language} onChange={(e)=>{i18n.changeLanguage(e.target.value)}}>
-                    <option value="en">EN</option>
-                    <option value="fr">FR</option>
-                </select>
+                <span className='secondary-btn' onClick={()=>{switchref.current.click()}}>
+                    <select ref={switchref} defaultValue={i18n.language} onChange={(e)=>{i18n.changeLanguage(e.target.value)}}>
+                        <option value="en">EN</option>
+                        <option value="fr">FR</option>
+                    </select>
+                    <BackArrow />
+                </span>
+                
                 <button onClick={()=>{setDark(!dark);switch_dark(dark);}}>
                     {!dark ? <Sun /> : <Moon />}
                 </button>

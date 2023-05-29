@@ -10,14 +10,14 @@
 
     "pass_title" : "Informations du Pass",
     "pass_supply" : "Supply",
-    "pass_distrib" : "Distribution gratuite",
-    "pass_sale" : "Vente Publique",
+    "pass_distrib" : "Max Mint",
+    "pass_sale" : "Prix de Mint",
+    "pass_benefits" : "Avantages du Pass",
     "pass_blockchain" : "Blockchain",
     "pass_nft" : "Standard NFT",
     "pass_fee" : "Royalties",
 
-    "industry_system" : "Seuls les détenteurs de Pass peuvent voter pour les prochains films à financer",
-    "industry_app" : "1 pass = 1 ticket. Les pass sont cumulables et fonctionne pour tout les films",
-    "industry_funding" : "En prenant part au processus de vote, vous serez gratifié en $NRT",
-    "industry_redistributed" : "Invitations exclusives à des événements pour les membres fidèles de Narativ"
+    "industry_app" : "Ticket d’Investissement : Chaque Pass donne un ticket pour chaque film.",
+    "industry_funding" : "Airdrop : Chaque pass recevra un airdrop de jetons.",
+    "industry_redistributed" : "Accès Exclusif : Invitations sur lieux de tournage, aux conférences..."
 }

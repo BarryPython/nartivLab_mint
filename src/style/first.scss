@@ -72,6 +72,14 @@
                 }
 
                 .sale-btn{
+
+                    .main-btn{
+                        background-color: $l-primary !important;
+                        color: black !important;
+                        &:hover{
+                            background-color: transparent !important;
+                        }
+                    }
                   
                     
                     span{

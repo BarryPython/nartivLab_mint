@@ -69,6 +69,10 @@
             justify-content: center;
             gap: 15px;
 
+            h2{
+                margin-right: auto;
+            }
+
             &.entered{
                 svg{
                     opacity: 1 !important;
