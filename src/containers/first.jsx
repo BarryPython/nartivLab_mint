@@ -34,7 +34,7 @@ export default function First(){
     const [minute, setminute] = useState()
 
     const [sold, setSold] = useState(0)
-    const [ethToBuy, setEthToBuy] = useState(0)
+    const [ethToBuy, setEthToBuy] = useState(1)
     const [mintPrice, setMintPrice] = useState(0)
 
     const {  address, connector: activeConnector, isConnected } = useAccount()
@@ -172,8 +172,8 @@ const buyTokens = useContract({
   useEffect(()=>{
     if (ethToBuy > 5){
         setEthToBuy(5);
-    }else if (ethToBuy < 0){
-        setEthToBuy(0);
+    }else if (ethToBuy < 1){
+        setEthToBuy(1);
     }
   },[ethToBuy]);
 
