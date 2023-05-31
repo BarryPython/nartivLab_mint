@@ -50,6 +50,10 @@ nav{
                 grid-column: 1;
                 padding: 10px 12px !important;
                 padding-right: 30px !important;
+
+                &.dark{
+                    color: white;
+                }
             }
 
             svg{
@@ -59,6 +63,10 @@ nav{
                 grid-row: 1;
                 grid-column: 1;
                 margin-left: 40px;
+
+                &.dark{
+                    color: white;
+                }
             }
         }
 
